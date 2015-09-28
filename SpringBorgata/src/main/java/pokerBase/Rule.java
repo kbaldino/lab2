@@ -57,7 +57,7 @@ public class Rule {
 			this.NumberOfJokers = 0;
 			this.CommunityCards = 0;
 			break;
-		}		
+		}
 		case DeucesWild: {
 			this.MaxNumberOfPlayers = 4;
 			this.NumberOfCards = 5;
@@ -98,14 +98,12 @@ public class Rule {
 	public int GetNumberOfJokers() {
 		return this.NumberOfJokers;
 	}
-	
-	public int GetCommunityCardsCount()
-	{
+
+	public int GetCommunityCardsCount() {
 		return this.CommunityCards;
 	}
-	
-	public ArrayList<Card> GetRuleCards()
-	{
+
+	public ArrayList<Card> GetRuleCards() {
 		return this.RuleCards;
 	}
 }
